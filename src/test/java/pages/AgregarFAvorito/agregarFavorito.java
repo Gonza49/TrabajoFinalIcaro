@@ -22,7 +22,7 @@ public class agregarFavorito extends PageBase {
     public agregarFavorito(WebDriver driver){
         super(driver);
         this.iniciando = new login(driver);
-    }
+    }   
 
     //Metodo de login traido de #login
     public void login(){
